@@ -42,3 +42,8 @@ input::placeholder {
     color: black;
     text-align: center;
 }
+
+p {
+    display: none;
+    
+}
