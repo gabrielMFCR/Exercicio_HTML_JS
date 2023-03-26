@@ -32,6 +32,7 @@ button {
     font-weight: bold;
     font-style: italic;
     cursor: pointer;
+    background-color: rgb(94, 238, 190);
 }
 
 button:hover {
