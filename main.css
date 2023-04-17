@@ -8,6 +8,7 @@
 
 .container {
     margin: 80px auto;
+    margin-left: 540px;
     max-width: 640px;
     width: 100%;
 }
@@ -44,7 +45,18 @@ input::placeholder {
     text-align: center;
 }
 
-p {
-    display: none;
-    
+.valido {
+    color: green;
+    font-weight: bold;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.invalido {
+    color: red;
+    font-weight: bold;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
 }
