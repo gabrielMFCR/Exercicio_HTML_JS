@@ -6,8 +6,8 @@ formulario.addEventListener('submit', function(event) {
 
 
 function validarFormulario() {
-    var campoA = document.getElementById("num-a").value;
-    var campoB = document.getElementById("num-b").value;
+    var campoA = parseInt(document.getElementById("num-a").value);
+    var campoB = parseInt(document.getElementById("num-b").value);
     var mensagem = document.getElementById("mensagem");
 
     if (campoB > campoA) {
